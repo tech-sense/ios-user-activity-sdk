@@ -1,0 +1,2896 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeystrokeData",
+        "printedName": "KeystrokeData",
+        "declKind": "Struct",
+        "usr": "s:19SenseOSUserActivity13KeystrokeDataV",
+        "mangledName": "$s19SenseOSUserActivity13KeystrokeDataV",
+        "moduleName": "SenseOSUserActivity",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SenseOSConfig",
+        "printedName": "SenseOSConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvp",
+            "mangledName": "$s19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvp",
+            "moduleName": "SenseOSUserActivity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvg",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvg",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvs",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvs",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvM",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC6apiKeySSSgvM",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "senseInfo",
+            "printedName": "senseInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvp",
+            "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvp",
+            "moduleName": "SenseOSUserActivity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvg",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvg",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvs",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvs",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvM",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9senseInfoSbSgvM",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowGeoLocation",
+            "printedName": "allowGeoLocation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvp",
+            "mangledName": "$s19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvp",
+            "moduleName": "SenseOSUserActivity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvg",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvg",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvs",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvs",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvM",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC16allowGeoLocationSbSgvM",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tag",
+            "printedName": "tag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SenseOSUserActivity0A8OSConfigC3tagSSSgvp",
+            "mangledName": "$s19SenseOSUserActivity0A8OSConfigC3tagSSSgvp",
+            "moduleName": "SenseOSUserActivity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC3tagSSSgvg",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC3tagSSSgvg",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC3tagSSSgvs",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC3tagSSSgvs",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC3tagSSSgvM",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC3tagSSSgvM",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionId",
+            "printedName": "sessionId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvp",
+            "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvp",
+            "moduleName": "SenseOSUserActivity",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvg",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvg",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvs",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvs",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvM",
+                "mangledName": "$s19SenseOSUserActivity0A8OSConfigC9sessionIdSSSgvM",
+                "moduleName": "SenseOSUserActivity",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SenseOSConfig",
+                "printedName": "SenseOSUserActivity.SenseOSConfig",
+                "usr": "s:19SenseOSUserActivity0A8OSConfigC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19SenseOSUserActivity0A8OSConfigCACycfc",
+            "mangledName": "$s19SenseOSUserActivity0A8OSConfigCACycfc",
+            "moduleName": "SenseOSUserActivity",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19SenseOSUserActivity0A8OSConfigC",
+        "mangledName": "$s19SenseOSUserActivity0A8OSConfigC",
+        "moduleName": "SenseOSUserActivity",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration.CaptiveNetwork",
+        "printedName": "SystemConfiguration.CaptiveNetwork",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPlayer",
+        "printedName": "MediaPlayer",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SenseOSUserActivityDelegate",
+        "printedName": "SenseOSUserActivityDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onFailure",
+            "printedName": "onFailure(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SenseOSUserActivity@objc(pl)SenseOSUserActivityDelegate(im)onFailureWithMessage:",
+            "mangledName": "$s19SenseOSUserActivity0abC8DelegateP9onFailure7messageySS_tF",
+            "moduleName": "SenseOSUserActivity",
+            "genericSig": "<τ_0_0 where τ_0_0 : SenseOSUserActivity.SenseOSUserActivityDelegate>",
+            "sugared_genericSig": "<Self where Self : SenseOSUserActivity.SenseOSUserActivityDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SenseOSUserActivity@objc(pl)SenseOSUserActivityDelegate(im)onSuccessWithData:",
+            "mangledName": "$s19SenseOSUserActivity0abC8DelegateP9onSuccess4dataySS_tF",
+            "moduleName": "SenseOSUserActivity",
+            "genericSig": "<τ_0_0 where τ_0_0 : SenseOSUserActivity.SenseOSUserActivityDelegate>",
+            "sugared_genericSig": "<Self where Self : SenseOSUserActivity.SenseOSUserActivityDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@SenseOSUserActivity@objc(pl)SenseOSUserActivityDelegate",
+        "mangledName": "$s19SenseOSUserActivity0abC8DelegateP",
+        "moduleName": "SenseOSUserActivity",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SenseOSUserActivity",
+        "printedName": "SenseOSUserActivity",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SenseOSUserActivity",
+                "printedName": "SenseOSUserActivity.SenseOSUserActivity",
+                "usr": "c:@M@SenseOSUserActivity@objc(cs)SenseOSUserActivity"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SenseOSUserActivity@objc(cs)SenseOSUserActivity(im)init",
+            "mangledName": "$s19SenseOSUserActivityAACABycfc",
+            "moduleName": "SenseOSUserActivity",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initSDK",
+            "printedName": "initSDK(senseConfig:withDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SenseOSUserActivity.SenseOSConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SenseOSConfig",
+                    "printedName": "SenseOSUserActivity.SenseOSConfig",
+                    "usr": "s:19SenseOSUserActivity0A8OSConfigC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SenseOSUserActivity.SenseOSUserActivityDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SenseOSUserActivityDelegate",
+                    "printedName": "SenseOSUserActivity.SenseOSUserActivityDelegate",
+                    "usr": "c:@M@SenseOSUserActivity@objc(pl)SenseOSUserActivityDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SenseOSUserActivityAAC7initSDK11senseConfig12withDelegateyAA0A8OSConfigCSg_AA0abcI0_pSgtFZ",
+            "mangledName": "$s19SenseOSUserActivityAAC7initSDK11senseConfig12withDelegateyAA0A8OSConfigCSg_AA0abcI0_pSgtFZ",
+            "moduleName": "SenseOSUserActivity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getScrollData",
+            "printedName": "getScrollData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SenseOSUserActivityAAC13getScrollDataSayypGyFZ",
+            "mangledName": "$s19SenseOSUserActivityAAC13getScrollDataSayypGyFZ",
+            "moduleName": "SenseOSUserActivity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initKeyStrokeBehaviour",
+            "printedName": "initKeyStrokeBehaviour(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UITextField]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SenseOSUserActivityAAC22initKeyStrokeBehaviour3forySaySo11UITextFieldCG_tFZ",
+            "mangledName": "$s19SenseOSUserActivityAAC22initKeyStrokeBehaviour3forySaySo11UITextFieldCG_tFZ",
+            "moduleName": "SenseOSUserActivity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initScrollBehaviour",
+            "printedName": "initScrollBehaviour(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIScrollView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIScrollView",
+                    "printedName": "UIKit.UIScrollView",
+                    "usr": "c:objc(cs)UIScrollView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SenseOSUserActivityAAC19initScrollBehaviour3forySaySo12UIScrollViewCG_tFZ",
+            "mangledName": "$s19SenseOSUserActivityAAC19initScrollBehaviour3forySaySo12UIScrollViewCG_tFZ",
+            "moduleName": "SenseOSUserActivity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initTouchBehaviour",
+            "printedName": "initTouchBehaviour(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SenseOSUserActivityAAC18initTouchBehaviour3forySo6UIViewC_tFZ",
+            "mangledName": "$s19SenseOSUserActivityAAC18initTouchBehaviour3forySo6UIViewC_tFZ",
+            "moduleName": "SenseOSUserActivity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBehaviourData",
+            "printedName": "getBehaviourData(withDelegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SenseOSUserActivity.SenseOSUserActivityDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SenseOSUserActivityDelegate",
+                    "printedName": "SenseOSUserActivity.SenseOSUserActivityDelegate",
+                    "usr": "c:@M@SenseOSUserActivity@objc(pl)SenseOSUserActivityDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19SenseOSUserActivityAAC16getBehaviourData12withDelegateyAA0abcH0_pSg_tFZ",
+            "mangledName": "$s19SenseOSUserActivityAAC16getBehaviourData12withDelegateyAA0abcH0_pSg_tFZ",
+            "moduleName": "SenseOSUserActivity",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SenseOSUserActivity@objc(cs)SenseOSUserActivity",
+        "mangledName": "$s19SenseOSUserActivityAAC",
+        "moduleName": "SenseOSUserActivity",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SenseOSUserActivity"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 530,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 591,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 618,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 700,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 746,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 871,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 920,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 1548,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1576,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1603,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 1634,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 1664,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 1695,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 1728,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1941,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2032,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2061,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2774,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3102,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3227,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3323,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3367,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3560,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3571,
+      "length": 9,
+      "value": "\"Default\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3713,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3742,
+      "length": 11,
+      "value": "\"keyStroke\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3773,
+      "length": 16,
+      "value": "\"avgTypingSpeed\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3831,
+      "length": 19,
+      "value": "\"avgTransitionTime\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3888,
+      "length": 18,
+      "value": "\"keyStrokeRhythms\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3942,
+      "length": 14,
+      "value": "\"sessionStart\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "FloatLiteral",
+      "offset": 3978,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3999,
+      "length": 12,
+      "value": "\"sessionEnd\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "FloatLiteral",
+      "offset": 4031,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4052,
+      "length": 18,
+      "value": "\"avgTrigraphsTime\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4109,
+      "length": 17,
+      "value": "\"avgDigraphsTime\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4164,
+      "length": 11,
+      "value": "\"keyCounts\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4178,
+      "length": 11,
+      "value": "\"backspace\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4224,
+      "length": 6,
+      "value": "\"info\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4233,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4273,
+      "length": 8,
+      "value": "\"layout\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "Array",
+      "offset": 4390,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4870,
+      "length": 7,
+      "value": "\"en-US\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4902,
+      "length": 8,
+      "value": "\"QWERTY\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4928,
+      "length": 7,
+      "value": "\"en-GB\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4960,
+      "length": 13,
+      "value": "\"QWERTY (UK)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4991,
+      "length": 4,
+      "value": "\"fr\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5020,
+      "length": 8,
+      "value": "\"AZERTY\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5046,
+      "length": 7,
+      "value": "\"fr-FR\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5078,
+      "length": 8,
+      "value": "\"AZERTY\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5104,
+      "length": 7,
+      "value": "\"en-IN\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5136,
+      "length": 8,
+      "value": "\"QWERTY\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5162,
+      "length": 7,
+      "value": "\"fr-BE\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5194,
+      "length": 18,
+      "value": "\"AZERTY (Belgium)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5230,
+      "length": 4,
+      "value": "\"de\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5259,
+      "length": 8,
+      "value": "\"QWERTZ\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5285,
+      "length": 7,
+      "value": "\"de-CH\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5317,
+      "length": 16,
+      "value": "\"QWERTZ (Swiss)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5351,
+      "length": 7,
+      "value": "\"de-AT\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5383,
+      "length": 19,
+      "value": "\"QWERTZ (Austrian)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5420,
+      "length": 7,
+      "value": "\"en-DV\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5452,
+      "length": 8,
+      "value": "\"DVORAK\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5478,
+      "length": 7,
+      "value": "\"en-CM\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5510,
+      "length": 9,
+      "value": "\"COLEMAK\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5537,
+      "length": 7,
+      "value": "\"ja-JP\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5569,
+      "length": 16,
+      "value": "\"JIS (Japanese)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5603,
+      "length": 9,
+      "value": "\"ja-Kana\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5637,
+      "length": 23,
+      "value": "\"Kana Input (Japanese)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5678,
+      "length": 7,
+      "value": "\"ko-KR\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5710,
+      "length": 23,
+      "value": "\"Hangul (Korean 2-set)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5751,
+      "length": 10,
+      "value": "\"ko-Hanja\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5786,
+      "length": 22,
+      "value": "\"Hanja (Korean 3-set)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5826,
+      "length": 7,
+      "value": "\"ru-RU\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5858,
+      "length": 19,
+      "value": "\"JCUKEN (Cyrillic)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5895,
+      "length": 4,
+      "value": "\"bg\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5924,
+      "length": 20,
+      "value": "\"Bulgarian Phonetic\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5962,
+      "length": 9,
+      "value": "\"sr-Cyrl\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5996,
+      "length": 18,
+      "value": "\"Serbian Cyrillic\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6032,
+      "length": 9,
+      "value": "\"sr-Latn\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6066,
+      "length": 15,
+      "value": "\"Serbian Latin\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6099,
+      "length": 7,
+      "value": "\"uk-UA\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6131,
+      "length": 20,
+      "value": "\"Ukrainian Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6169,
+      "length": 7,
+      "value": "\"ar-SA\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6201,
+      "length": 21,
+      "value": "\"Arabic (101 Layout)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6240,
+      "length": 4,
+      "value": "\"ar\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6269,
+      "length": 21,
+      "value": "\"Arabic (102 Layout)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6308,
+      "length": 7,
+      "value": "\"fa-IR\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6340,
+      "length": 18,
+      "value": "\"Persian Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6376,
+      "length": 7,
+      "value": "\"ur-PK\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6408,
+      "length": 15,
+      "value": "\"Urdu Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6441,
+      "length": 7,
+      "value": "\"he-IL\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6473,
+      "length": 17,
+      "value": "\"Hebrew Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6508,
+      "length": 7,
+      "value": "\"el-GR\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6540,
+      "length": 16,
+      "value": "\"Greek Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6574,
+      "length": 7,
+      "value": "\"th-TH\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6606,
+      "length": 15,
+      "value": "\"Thai Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6639,
+      "length": 7,
+      "value": "\"tr-TR\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6671,
+      "length": 18,
+      "value": "\"Turkish Q Layout\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6707,
+      "length": 6,
+      "value": "\"tr-F\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6738,
+      "length": 18,
+      "value": "\"Turkish F Layout\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6774,
+      "length": 7,
+      "value": "\"cs-CZ\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6806,
+      "length": 16,
+      "value": "\"Czech Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6840,
+      "length": 7,
+      "value": "\"hu-HU\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6872,
+      "length": 20,
+      "value": "\"Hungarian Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6910,
+      "length": 7,
+      "value": "\"pl-PL\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6942,
+      "length": 17,
+      "value": "\"Polish Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 6977,
+      "length": 7,
+      "value": "\"ro-RO\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7009,
+      "length": 19,
+      "value": "\"Romanian Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7046,
+      "length": 7,
+      "value": "\"pt-BR\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7078,
+      "length": 30,
+      "value": "\"Portuguese (Brazilian ABNT2)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7126,
+      "length": 7,
+      "value": "\"pt-PT\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7158,
+      "length": 23,
+      "value": "\"Portuguese (Portugal)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7199,
+      "length": 8,
+      "value": "\"es-419\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7232,
+      "length": 25,
+      "value": "\"Spanish (Latin America)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7275,
+      "length": 7,
+      "value": "\"es-ES\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7307,
+      "length": 24,
+      "value": "\"Spanish (Spain QWERTY)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7349,
+      "length": 7,
+      "value": "\"it-IT\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7381,
+      "length": 18,
+      "value": "\"Italian Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7417,
+      "length": 7,
+      "value": "\"vi-VN\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7449,
+      "length": 40,
+      "value": "\"Vietnamese Keyboard (Telex, VNI, VIQR)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7507,
+      "length": 9,
+      "value": "\"en-PROG\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7541,
+      "length": 25,
+      "value": "\"Programmer’s Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7584,
+      "length": 9,
+      "value": "\"en-GAME\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7618,
+      "length": 17,
+      "value": "\"Gaming Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7653,
+      "length": 5,
+      "value": "\"num\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7683,
+      "length": 25,
+      "value": "\"Numeric Keypad (Numpad)\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7726,
+      "length": 10,
+      "value": "\"one-hand\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7761,
+      "length": 22,
+      "value": "\"One-Handed Keyboards\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7801,
+      "length": 5,
+      "value": "\"brl\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7831,
+      "length": 18,
+      "value": "\"Braille Keyboard\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 7911,
+      "length": 16,
+      "value": "\"Unknown Layout\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TypingMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 16,
+      "value": "\"SenseOSUserActivity.KeystrokeTracker\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "FloatLiteral",
+      "offset": 166,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "FloatLiteral",
+      "offset": 211,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "Array",
+      "offset": 270,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "Array",
+      "offset": 325,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "Array",
+      "offset": 381,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "Array",
+      "offset": 423,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1009,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1067,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1191,
+      "length": 16,
+      "value": "\"Scrolling Down\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1283,
+      "length": 14,
+      "value": "\"Scrolling Up\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 8,
+      "value": "\"Static\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1472,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1636,
+      "length": 17,
+      "value": "\"scrollPositions\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1684,
+      "length": 14,
+      "value": "\"scrollSpeeds\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1726,
+      "length": 14,
+      "value": "\"acceleration\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 1769,
+      "length": 11,
+      "value": "\"direction\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/ScrollMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 20,
+      "value": "\"SenseOSUserActivity.ScrollMetricsTracker\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 133,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 182,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 226,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 280,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 332,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 379,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 426,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 472,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "Array",
+      "offset": 514,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 614,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 736,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1177,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1363,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1882,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2503,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 2683,
+      "length": 21,
+      "value": "\"Long Press Detected\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3039,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3163,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3180,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3279,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3283,
+      "length": 18,
+      "value": "\"Right-Handed Use\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 3304,
+      "length": 17,
+      "value": "\"Left-Handed Use\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3600,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3754,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3903,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4125,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4129,
+      "length": 7,
+      "value": "\"Right\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4139,
+      "length": 6,
+      "value": "\"Left\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4198,
+      "length": 6,
+      "value": "\"Down\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4207,
+      "length": 4,
+      "value": "\"Up\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "FloatLiteral",
+      "offset": 4749,
+      "length": 4,
+      "value": "30.0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4756,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4760,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4938,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4946,
+      "length": 35,
+      "value": "\"Touchscreen Pressure and Gestures\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 4995,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5021,
+      "length": 16,
+      "value": "\"pressureLevels\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5071,
+      "length": 14,
+      "value": "\"tapBehaviour\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5105,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5111,
+      "length": 2,
+      "value": "\" ms\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5135,
+      "length": 14,
+      "value": "\"holdPatterns\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5181,
+      "length": 15,
+      "value": "\"swipeDynamics\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5220,
+      "length": 7,
+      "value": "\"speed\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5262,
+      "length": 10,
+      "value": "\"duration\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5295,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5301,
+      "length": 2,
+      "value": "\" ms\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5329,
+      "length": 11,
+      "value": "\"direction\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5393,
+      "length": 20,
+      "value": "\"multiTouchGestures\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5437,
+      "length": 10,
+      "value": "\"rotation\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5470,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5476,
+      "length": 2,
+      "value": "\"°\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5503,
+      "length": 14,
+      "value": "\"pinchGesture\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 5568,
+      "length": 12,
+      "value": "\"handedness\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/TouchMetrics.swift",
+      "kind": "StringLiteral",
+      "offset": 20,
+      "length": 18,
+      "value": "\"SenseOSUserActivity.TouchscreenTracker\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "Dictionary",
+      "offset": 668,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 1247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2336,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2348,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2367,
+      "length": 11,
+      "value": "\"behaviour\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2398,
+      "length": 15,
+      "value": "\"keyStrokeData\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2465,
+      "length": 17,
+      "value": "\"orientationData\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2546,
+      "length": 17,
+      "value": "\"touchScreenData\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "Dictionary",
+      "offset": 2609,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2630,
+      "length": 15,
+      "value": "\"scrollMetrics\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/SenseOSUserActivity.swift",
+      "kind": "StringLiteral",
+      "offset": 2986,
+      "length": 26,
+      "value": "\"Failed to serialize data\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "Array",
+      "offset": 619,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "Array",
+      "offset": 646,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "Array",
+      "offset": 672,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "Array",
+      "offset": 695,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 18,
+      "value": "\"Flat orientation\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 1578,
+      "length": 15,
+      "value": "\"Portrait mode\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 1660,
+      "length": 16,
+      "value": "\"Landscape Left\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 1744,
+      "length": 17,
+      "value": "\"Landscape Right\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 13,
+      "value": "\"Upside Down\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "FloatLiteral",
+      "offset": 2271,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2528,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2584,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 2780,
+      "length": 9,
+      "value": "\"Unknown\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2810,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 2842,
+      "length": 9,
+      "value": "\"Face Up\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2878,
+      "length": 3,
+      "value": "-60"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 2911,
+      "length": 11,
+      "value": "\"Face Down\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2953,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2993,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 2998,
+      "length": 21,
+      "value": "\"Screen Tilted Right\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 3022,
+      "length": 20,
+      "value": "\"Screen Tilted Left\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3069,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 3101,
+      "length": 21,
+      "value": "\"Slight Forward Tilt\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3149,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 3182,
+      "length": 22,
+      "value": "\"Slight Backward Tilt\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "FloatLiteral",
+      "offset": 3584,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 3854,
+      "length": 3,
+      "value": "\"x\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 3904,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 3954,
+      "length": 3,
+      "value": "\"z\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4291,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 4636,
+      "length": 30,
+      "value": "\"Something is near the device\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "StringLiteral",
+      "offset": 4669,
+      "length": 28,
+      "value": "\"Nothing is near the device\""
+    },
+    {
+      "filePath": "\/Users\/ippo383\/Documents\/Sense 2.0\/Sense Open Source\/github_sense\/sense_iOS_opensource_sdk\/SenseOSUserActivity\/SenseOSUserActivity\/Orientation.swift",
+      "kind": "Array",
+      "offset": 5518,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}

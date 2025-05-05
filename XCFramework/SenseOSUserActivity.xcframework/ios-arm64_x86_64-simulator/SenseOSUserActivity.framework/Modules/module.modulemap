@@ -1,0 +1,11 @@
+framework module SenseOSUserActivity {
+  umbrella header "SenseOSUserActivity.h"
+  export *
+
+  module * { export * }
+}
+
+module SenseOSUserActivity.Swift {
+  header "SenseOSUserActivity-Swift.h"
+  requires objc
+}
