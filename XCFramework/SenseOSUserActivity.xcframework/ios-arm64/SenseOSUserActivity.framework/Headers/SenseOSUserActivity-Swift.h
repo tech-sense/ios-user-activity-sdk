@@ -298,18 +298,18 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS("_TtC19SenseOSUserActivity19SenseOSUserActivity")
-@interface SenseOSUserActivity : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class NSString;
 
 SWIFT_PROTOCOL("_TtP19SenseOSUserActivity27SenseOSUserActivityDelegate_")
 @protocol SenseOSUserActivityDelegate
 - (void)onFailureWithMessage:(NSString * _Nonnull)message;
 - (void)onSuccessWithData:(NSString * _Nonnull)data;
+@end
+
+
+SWIFT_CLASS("_TtC19SenseOSUserActivity22SenseOSUserActivitySDK")
+@interface SenseOSUserActivitySDK : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #endif

@@ -34,7 +34,7 @@ public class SenseOSConfig {
   @objc func onFailure(message: Swift.String)
   @objc func onSuccess(data: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers public class SenseOSUserActivity : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers public class SenseOSUserActivitySDK : ObjectiveC.NSObject {
   @objc override dynamic public init()
   public static func initSDK(senseConfig: SenseOSUserActivity.SenseOSConfig?, withDelegate: (any SenseOSUserActivity.SenseOSUserActivityDelegate)?)
   public static func getScrollData() -> [Any]

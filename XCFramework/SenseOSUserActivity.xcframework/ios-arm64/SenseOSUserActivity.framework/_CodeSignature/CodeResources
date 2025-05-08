@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SenseOSUserActivity-Swift.h</key>
 		<data>
-		Wqh70LD1yyFEgAOfPRBgkBXNwDI=
+		Hqy9cGfaV0g6xWc38mIyn6CF2Xg=
 		</data>
 		<key>Headers/SenseOSUserActivity.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		AtY2GgRJ9VNsWLRtEqtBvQ73xGw=
+		WXgGSDSnxIuEFHgJhdAmTS5WhWQ=
 		</data>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		n19wRwyNiHtmThLXSFVSWtGcyrE=
+		lfQhuiLLMe3sCYY6KichMUENlcU=
 		</data>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		n19wRwyNiHtmThLXSFVSWtGcyrE=
+		lfQhuiLLMe3sCYY6KichMUENlcU=
 		</data>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		IRSBtjMCQgz51AbAf8IPi5HWmNE=
+		rbZ5w5UAd6ugEk4HB8xbPnX9vF0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I4HZfe343Lod2akA6WO0tHuDnrUaVFCNZZ9pxgYzskY=
+			C6EXKqn8R6p2KXv4slrV4wR3Y38yXuss3BUZIKle1zo=
 			</data>
 		</dict>
 		<key>Headers/SenseOSUserActivity.h</key>
@@ -61,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1gfrnSuCgDRknKFCfANDHh2Xd/K7axSs78soOHwCxf4=
+			CyIbJlA8WA7/e/BSkEfr4wBq5HrOnSQQuhggx8xlxuQ=
 			</data>
 		</dict>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OnROKGXldp1csB5K/96i0lcOaBZlhWu6YXbvyUiCfIo=
+			LGgnnqCPgWN+ZHapfyesfllNuhdy8DxcYZW477BZqmo=
 			</data>
 		</dict>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OnROKGXldp1csB5K/96i0lcOaBZlhWu6YXbvyUiCfIo=
+			LGgnnqCPgWN+ZHapfyesfllNuhdy8DxcYZW477BZqmo=
 			</data>
 		</dict>
 		<key>Modules/SenseOSUserActivity.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TC3HblO9lYqpuyGZijtf/bZZkMuD7/2pw5ucLPgobeE=
+			do/TQSgjtHVfxwHwg/aUgZHPnxqqQmjCm5wGK+TmTks=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
